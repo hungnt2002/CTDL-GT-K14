@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Lab3bai1 {
     public static void main(String[] args) {
         Scanner varInput = new Scanner(System.in);
-        System.out.println("============Kiểm tra số nguyên tố============");
+        System.out.println("============Kiểm tra số nguyên tố============"); // KT snt
         System.out.println("Nhập vào số nguyên: ");
         int n = varInput.nextInt();
         boolean ok = true;
@@ -14,7 +14,7 @@ public class Lab3bai1 {
                 ok = false;
                 break;
             }
-            i++;
+            i++; 
         }
         if(ok == true)
             System.out.printf("%d là số nguyên tố", n);
