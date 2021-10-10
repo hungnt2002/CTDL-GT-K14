@@ -12,6 +12,6 @@ public class Car {
         System.out.println("hãng sản xuất: " + hangSanXuat);
         System.out.println("dòng : " + dong);
         System.out.println("giấy phép : " + giayPhep);
-        System.out.println("dung tích xăng: " + dungTichxang);
+        System.out.println("dung tích xăng: " + dungTichxang); 
     }
 }

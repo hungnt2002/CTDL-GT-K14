@@ -9,7 +9,7 @@ public class BookTestDrive {
         book.giaBan = "30000đ";
         book.soLuong = 2;
         book.Loai = "truyện tranh";
-        
+         
         book.inThongTin();
     }
 }

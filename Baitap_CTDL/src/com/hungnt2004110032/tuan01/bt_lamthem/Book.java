@@ -9,7 +9,7 @@ public class Book {
         System.out.println("nhà xuất bản: " + nhaXuatBan);
         System.out.println("giá bán: " + giaBan);
         System.out.println("số lượng: " + soLuong);
-        System.out.println("loại : " + Loai);
+        System.out.println("loại : " + Loai); 
     }
 
 }

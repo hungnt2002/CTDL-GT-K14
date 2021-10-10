@@ -10,6 +10,5 @@ public class lab1bai3 {
         double thetich = Math.pow(canh, 3);
 
         System.out.println("thể tích lập phương : " + thetich);
-        
     }
 }

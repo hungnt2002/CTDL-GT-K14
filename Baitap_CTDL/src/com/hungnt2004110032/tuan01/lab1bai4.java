@@ -12,7 +12,6 @@ public class lab1bai4 {
         System.out.print("c = ");
         double c = scanner.nextDouble();
  
-        //tính delta
         double delta = Math.pow(b, 2) - 4 * a * c;
         System.out.println(" delta = " + delta);
               String ketqua = "";

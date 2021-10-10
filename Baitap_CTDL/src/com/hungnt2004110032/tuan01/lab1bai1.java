@@ -11,6 +11,5 @@ public class lab1bai1 {
         double diem = scanner.nextDouble();
 
         System.out.printf("họ và tên: %s ,điểm: %f  ",hoTen, diem);
-        
     }
 }

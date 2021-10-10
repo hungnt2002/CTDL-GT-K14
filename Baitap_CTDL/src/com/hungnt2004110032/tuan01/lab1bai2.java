@@ -15,6 +15,5 @@ public class lab1bai2 {
 
         System.out.println("chu vi = " + chuvi + " diện tích = " + dientich + " cạnh nhỏ nhất = " + canhnhonhat);
 
-        
     }
 }
