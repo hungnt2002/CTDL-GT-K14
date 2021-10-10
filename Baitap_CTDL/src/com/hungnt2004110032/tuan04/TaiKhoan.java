@@ -1,16 +1,19 @@
 package com.hungnt2004110032.tuan04;
 
-public class TaiKhoan {
-    String tenTaiKhoan;
-    int soTaiKhoan, soDu;
-    TaiKhoan(String t, int stk, int sd){
-        tenTaiKhoan = t;
-        soTaiKhoan = stk;
-        soDu = sd;
+public class Taikhoan {
+    String tenChuTaiKhoan;
+    String soTaiKhoan;
+    String soDuTaiKhoang;
+
+    Taikhoan(){};
+
+    Taikhoan(String n, String st, String sd){
+        tenChuTaiKhoan = n;
+        soTaiKhoan = st;
+        soDuTaiKhoang = sd;
+    
     }
-    void inThongTinTaiKhoan(){
-        System.out.println("Tên tài khoản: " + tenTaiKhoan);
-        System.out.println("Số tài khoản: " + soTaiKhoan);
-        System.out.printf("Số dư: %d đồng", soDu);
+    void inThongTin(){
+        System.out.println("tên chủ tài khoản: " + tenChuTaiKhoan + "\n" + "số tài khoản: " + soTaiKhoan + "\n" +"số dư tài khoản: " + soDuTaiKhoang);
     }
 }
